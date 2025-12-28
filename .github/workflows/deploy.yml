@@ -31,6 +31,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
           local-dir: dist/
-          server-dir: /public_html/git_action_app_dis/
+          server-dir: /
           exclude: |
             **/.htaccess
